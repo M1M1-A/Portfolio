@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d6f7ad14.css",
+    "main.js": "/Portfolio/static/js/main.8bc27a44.js",
+    "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/StreamSeekerDemo.mp4": "/Portfolio/static/media/StreamSeekerDemo.56b78cfd25eb39fb8679.mp4",
+    "static/media/StreamSeekerUI.png": "/Portfolio/static/media/StreamSeekerUI.fd19c1c51061fb941bed.png",
+    "static/media/React.png": "/Portfolio/static/media/React.bf99a684e39905a33780.png",
+    "static/media/TMDB.png": "/Portfolio/static/media/TMDB.6298f7d27e0f3f87d631.png",
+    "static/media/Express.png": "/Portfolio/static/media/Express.973c368ed74065971bb0.png",
+    "static/media/mongoDB.png": "/Portfolio/static/media/mongoDB.702367c658b5726ce541.png",
+    "static/media/cypress.png": "/Portfolio/static/media/cypress.29f38df84279283f2bc0.png",
+    "static/media/Node.js.png": "/Portfolio/static/media/Node.js.8ae1484d09b7d7261bcc.png",
+    "static/media/jest.png": "/Portfolio/static/media/jest.7319b63f69a904b16894.png",
+    "index.html": "/Portfolio/index.html",
+    "main.d6f7ad14.css.map": "/Portfolio/static/css/main.d6f7ad14.css.map",
+    "main.8bc27a44.js.map": "/Portfolio/static/js/main.8bc27a44.js.map",
+    "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6f7ad14.css",
+    "static/js/main.8bc27a44.js"
+  ]
+}
