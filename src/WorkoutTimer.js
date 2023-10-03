@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import UIdesign from "./Assests/StreamSeekerUI.png";
+import UIdesign from "./Assests/WorkoutTimer Diagrams.png";
 import Demo from "./Assests/Workout Timer Demo.mp4";
 import "./StreamSeeker.css";
 import Technologies from "./WorkoutTimerTechnologies";
@@ -62,7 +62,7 @@ function TabbedContent() {
             className={activeTab === "image" ? "active2" : "image"}
             onClick={() => handleTabClick("image")}
           >
-            UI Diagram
+            Diagrams
           </button>
         </div>
       </div>
