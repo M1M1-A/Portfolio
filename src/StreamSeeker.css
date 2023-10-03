@@ -26,7 +26,7 @@
   text-align: left;
 }
 
-.video, .image, .active {
+.video, .image, .active2 {
   cursor: pointer;
   padding: 5px 10px;
   background-color: rgb(255, 255, 255);
@@ -35,6 +35,12 @@
   color: #2b1b77;
   margin: 5px;
   font-weight: bold;
+  width: 150px;
+  height: 35px;
+}
+
+.active2 {
+  background-color: rgba(0, 255, 255, 0.8);
 }
 
 .link {
