@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import UIdesign from "./Assests/WorkoutTimer Diagrams.png";
 import Demo from "./Assests/Workout Timer Demo.mp4";
 import "./StreamSeeker.css";
-import Technologies from "./WorkoutTimerTechnologies";
+import Technologies from "./Technologies";
 
 function TabbedContent() {
   const [activeTab, setActiveTab] = useState("video");
@@ -29,7 +29,7 @@ function TabbedContent() {
           Git Hub Link
         </a>
         <h3>Technologies:</h3>
-        <Technologies />
+        <Technologies technologies={["flask","python", "pytest", "react", "node", "javascript", "cypress"]}/>
         <br />
       </div>
       <div className="content-right">

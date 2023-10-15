@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import UIdesign from "./Assests/StreamSeekerUI.png";
 import Demo from "./Assests/StreamSeekerDemo.mp4";
 import "./StreamSeeker.css";
-import Technologies from "./StreamSeekerTechnologies";
+import Technologies from "./Technologies";
 
 function TabbedContent() {
   const [activeTab, setActiveTab] = useState("video");
@@ -28,7 +28,7 @@ function TabbedContent() {
           Git Hub Link
         </a>
         <h3>Technologies:</h3>
-        <Technologies />
+        <Technologies technologies={["mongoDB", "express", "react", "node", "TMDB", "cypress", "jest"]}/>
         <br />
       </div>
       <div className="content-right">
