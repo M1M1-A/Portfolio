@@ -19,7 +19,7 @@
 
 .link {
   text-decoration: none;
-  color: #007bff; /* Change the color to your preference */
+  color: #007bff; 
 }
 
 .tab-buttons {
@@ -30,9 +30,9 @@
   cursor: pointer;
   padding: 5px 10px;
   background-color: rgb(255, 255, 255);
-  border: 0.5px solid #2b1b77;
+  border: 0.5px solid #272929;
   border-radius: 10px;
-  color: #2b1b77;
+  color: #272929;
   margin: 5px;
   font-weight: bold;
   width: 150px;
@@ -40,7 +40,8 @@
 }
 
 .active2 {
-  background-color: rgba(0, 255, 255, 0.8);
+  background-color: rgba(176, 176, 176, 0.7);
+  color: white;
 }
 
 .link {

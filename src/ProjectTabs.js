@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import StreamSeeker from './StreamSeeker'
 import WorkoutTimer from './WorkoutTimer'
+import OnTheDoor from './OnTheDoor'
 import "./ProjectTabs.css"
 
 function ProjectTabs() {
@@ -20,6 +21,13 @@ function ProjectTabs() {
       </button>
 
       <button
+          className={activeTab === 'onTheDoor' ? 'active' : 'onTheDoor'}
+          onClick={() => handleTabClick('onTheDoor')}
+          >
+          OnTheDoor
+      </button>
+
+      <button
           className={activeTab === 'WorkoutTimer' ? 'active' : 'WorkoutTimer'}
           onClick={() => handleTabClick('WorkoutTimer')}
           >
@@ -30,6 +38,11 @@ function ProjectTabs() {
           {activeTab === "streamSeeker" && (
             <div>
               <StreamSeeker />
+            </div>
+          )}
+          {activeTab === "onTheDoor" && (
+            <div>
+              <OnTheDoor />
             </div>
           )}
           {activeTab === "WorkoutTimer" && (
